@@ -765,3 +765,38 @@ h6::before {
   width: 100%;
   background-color: rgba(0, 0, 0, .1);
 }
+
+
+.profile-container {  
+  display: flex;  
+  align-items: flex-start; /* 垂直对齐方式（根据需要调整） */  
+}  
+
+.avatar {  
+  border-radius: 50%;  
+  width: 100px;  
+  height: 100px;  
+  margin-right: 20px; /* 增加头像和文本之间的间距 */  
+}  
+
+.profile-info {  
+  display: flex; /* 让两个info-group并排显示 */  
+}  
+
+.info-group {  
+  flex: 1; /* 让两个info-group平分剩余空间（或根据需要设置具体宽度） */  
+}  
+
+.info-group ul {  
+  list-style-type: none; /* 移除默认的列表样式 */  
+  padding: 0; /* 移除默认的列表内边距 */  
+}  
+
+.info-group li {  
+  margin-bottom: 10px; /* 每个列表项之间的垂直间距 */  
+}  
+
+/* 如果需要，可以给右侧的info-group添加一些样式，比如左边距 */  
+.info-group:nth-child(2) {  
+  margin-left: 20px; /* 增加右侧info-group的左边距 */  
+}
