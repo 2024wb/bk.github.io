@@ -800,3 +800,8 @@ h6::before {
 .info-group:nth-child(2) {  
   margin-left: 20px; /* 增加右侧info-group的左边距 */  
 }
+
+.loading-img {
+  background: url(https://wbbkk.top/img/logo.png) no-repeat center center;
+  background-size: cover;
+}
