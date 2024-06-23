@@ -48,6 +48,33 @@
     
     
     <entry>
+      <title>html+css+js网页制作</title>
+      <link href="/2024/06/05/html+css+js%E7%BD%91%E9%A1%B5%E6%88%90%E5%93%81/"/>
+      <url>/2024/06/05/html+css+js%E7%BD%91%E9%A1%B5%E6%88%90%E5%93%81/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近学了一些js 加上之前学过html+css 通过网上教程写了一个html+css+js网页</p><h2 id="以下是成品的前段效果"><a href="#以下是成品的前段效果" class="headerlink" title="以下是成品的前段效果"></a>以下是成品的前段效果</h2><img src="/img/网页.png" alt="网页效果"><iframe src="/img/3.html" width="100%" height="500px"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+            <tag> js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>文件和异常</title>
       <link href="/2024/06/05/%E6%96%87%E4%BB%B6%E5%92%8C%E5%BC%82%E5%B8%B8/"/>
       <url>/2024/06/05/%E6%96%87%E4%BB%B6%E5%92%8C%E5%BC%82%E5%B8%B8/</url>
