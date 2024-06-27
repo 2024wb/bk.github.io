@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>js基础.md</title>
+      <link href="/2024/06/27/js%E5%9F%BA%E7%A1%80-md/"/>
+      <url>/2024/06/27/js%E5%9F%BA%E7%A1%80-md/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>html+css+js网页制作</title>
       <link href="/2024/06/23/%E5%89%8D%E7%AB%AF-md/"/>
       <url>/2024/06/23/%E5%89%8D%E7%AB%AF-md/</url>
@@ -20,9 +45,9 @@
       
         <tags>
             
-            <tag> css </tag>
-            
             <tag> js </tag>
+            
+            <tag> css </tag>
             
         </tags>
       
