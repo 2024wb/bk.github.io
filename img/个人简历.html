@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王标 - 主页及个人简历</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        .container, .resume-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f7f7f7;
+            transition: opacity 1s, transform 1s;
+        }
+        .container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+        .resume-container {
+            display: none;
+            flex-direction: column;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: url('https://wbbkk.top/img/logo.png') no-repeat center/cover;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 26px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .enter-btn {
+            background: linear-gradient(135deg, #7ea9e1, #89c2f7);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-decoration: none;
+        }
+        .enter-btn:hover {
+            background: linear-gradient(135deg, #5d9bd3, #6fb2f1);
+        }
+        .sidebar {
+            width: 250px;
+            background: linear-gradient(135deg, #0073e6, #00aaff);
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            color: #fff;
+        }
+        .sidebar h1 {
+            font-size: 26px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+        }
+        .sidebar nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar nav ul li {
+            margin: 10px 0;
+        }
+        .sidebar nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .sidebar nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .content {
+            margin-left: 270px;
+            padding: 30px;
+            flex: 1;
+        }
+        h2, h3 {
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .skills-list, .education-list, .experience-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li, .education-list li, .experience-list li {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .skills-list li::before, .education-list li::before, .experience-list li::before {
+            content: "✔";
+            color: #0073e6;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section div, .section p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-pic"></div>
+        <h1>王标</h1>
+        <button class="enter-btn" onclick="showResume()">进入简历</button>
+    </div>
+    <div class="resume-container">
+        <div class="sidebar">
+            <h1>王标</h1>
+            <nav>
+                <ul>
+                    <li><a href="#contact-info">联系方式</a></li>
+                    <li><a href="#job-info">求职信息</a></li>
+                    <li><a href="#advantages">个人优势</a></li>
+                    <li><a href="#education">教育经历</a></li>
+                    <li><a href="#experience">实习经历</a></li>
+                    <li><a href="#skills">专业技能</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="section" id="contact-info">
+                <h2>联系方式</h2>
+                <div>电话: 17857130522</div>
+                <div>微信号: 17857130522</div>
+                <div>邮箱: <a href="mailto:3117158718@qq.com">3117158718@qq.com</a></div>
+            </div>
+            <div class="section" id="job-info">
+                <h2>求职信息</h2>
+                <div>求职意向: 新媒体运营</div>
+                <div>期望薪资: 6-7K</div>
+                <div>期望城市: 杭州</div>
+            </div>
+            <div class="section" id="advantages">
+                <h2>个人优势</h2>
+                <p>电商方面：熟悉各大电商平台（如拼多多、淘宝、京东、抖音等）的规则和操作流程。</p>
+                <p>了解客服审单工作流程，具备良好的沟通和解决问题的能力。</p>
+                <p>熟练使用办公软件（如 Microsoft Office ）以及客服工具（如 ERP 、班牛等）进行记录和管理。</p>
+                <p>具备团队合作精神和快速学习能力。</p>
+                <p>开发项目：个人博客<a href="https://wbbkk.top/" target="_blank">https://wbbkk.top/</a></p>
+            </div>
+            <div class="section" id="education">
+                <h2>教育经历</h2>
+                <ul class="education-list">
+                    <li>浙江安防职业技术学院 大专 云计算技术与应用 2022-2024</li>
+                    <li>专业排名: 前3%</li>
+                    <li>主修课程: 云计算</li>
+                </ul>
+            </div>
+            <div class="section" id="experience">
+                <h2>实习经历</h2>
+                <ul class="experience-list">
+                    <li>
+                        <strong>杭州怡然电子商务有限公司 客服</strong> (2022.04-2022.09)
+                        <p>客服人员的主要职责是接待客户，解答他们的疑问，并提供相应的帮助。这包括但不限于解答产品使用方法、售后服务、订单状态等问题。</p>
+                        <p>投诉处理与关系维护</p>
+                    </li>
+                    <li>
+                        <strong>糖友饱饱（杭州）健康食品有限公司 审核</strong> (2021.03-2022.04)
+                        <p>负责处理售前客户咨询，提供产品信息、价格和服务等相关信息，有效提高了客户转化率。</p>
+                        <p>专注于售后服务，处理客户投诉、退换货等问题，保持客户满意度在高水平。</p>
+                        <p>负责审单工作，确保订单信息准确无误，提高了订单处理效率</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="section" id="skills">
+                <h2>专业技能</h2>
+                <ul class="skills-list">
+                    <li>做过程序Python，（学生管理系统，银行管理系统）</li>
+                    <li>云端部署: 熟悉使用Docker, OpenStack进行云端部署，能够将项目快速、高效地部署到云端环境。部署过论坛</li>
+                    <li>熟练使用MySQL和MongoDB等数据库管理系统，负责设计和优化数据库结构，提高数据查询效率。</li>
+                    <li>运用SQL查询语句进行数据分析和报表生成</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showResume() {
+            document.querySelector('.container').style.opacity = '0';
+            document.querySelector('.container').style.transform = 'scale(0.9)';
+            setTimeout(() => {
+                document.querySelector('.container').style.display = 'none';
+                const resumeContainer = document.querySelector('.resume-container');
+                resumeContainer.style.display = 'flex';
+                resumeContainer.style.opacity = '0';
+                resumeContainer.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    resumeContainer.style.opacity = '1';
+                    resumeContainer.style.transform = 'translateY(0)';
+                }, 10);
+            }, 1000);
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll(".section");
+            sections.forEach((section, index) => {
+                setTimeout(() => {
+                    section.classList.add("dynamic");
+                }, index * 500);
+            });
+
+            const links = document.querySelectorAll('.sidebar nav ul li a');
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
