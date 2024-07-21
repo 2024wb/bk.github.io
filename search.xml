@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>毕设第一天</title>
+      <link href="/2024/07/21/%E6%AF%95%E8%AE%BE%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+      <url>/2024/07/21/%E6%AF%95%E8%AE%BE%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Kubernetes 集群部署</title>
       <link href="/2024/07/20/docker%E9%83%A8%E7%BD%B2/"/>
       <url>/2024/07/20/docker%E9%83%A8%E7%BD%B2/</url>
@@ -205,7 +218,7 @@
       <link href="/2024/05/01/girlfriend/"/>
       <url>/2024/05/01/girlfriend/</url>
       
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="ee45e702d07e369043ae24fd4170e99903e9409cbd4a125b77961c34648de955">a6a93abe15165915212295988115e6bb4c4cda13722a2c340722d2184c648cf0c3e1a8c67ab47f123dcfc9beb21eaa5e6584d07245f34934d85624b40244997073e74a44b243cba0e029e94748802ca804788d50857e5968efe6558f6c49b9e49742193c942c896f624ef86971c419e6d8a5cce02f082f4f7f937022c7f523d7af0d2af83e9bf5831585b20b06e59e8e306c40d3c7786b313eb4ed093b4c8ed3461f4dd6006e3dfc1ae42025902893eb8d334fe3386b30ff3c1e71b312767d0521c55b3f4b5dde1ad9a9132a318c37bdbeca783effea5fd73e60c2cf7da48825284984fd485761b2de8ed988151ffbfb9a87d7a90266048a7fc57bd279e60e0d83189607d7c4a3e15ca3197933070560374992ad52bd714ab65401751ec8e2eb2c81eeec9d8e7e40b472551135d7cd424543f3289e56c64ee53f90ba43d87dae5b7aaae02b8a7b6f8137e92399729c27ee4dc8975de0ae106732a332fcff00a2cf93a6a5343b9dd1bc2f07c15e596aec7f152a8e9f326a3ccd01231f167d6ec78846e5cd279e7de8b3022c4abdca593da8911577573e74715673f0e9601190a0cb9f110bdf227ac143b7319fe34add756562a4413a2cdc71911d3933b90f0654</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">您好, 这里需要密码.</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="e27aa6bf6c1a631f8ccc5e62cc4fbcae5c4b625cb33a497b69d0f08d1fde6a52">a6a93abe15165915212295988115e6bb4c4cda13722a2c340722d2184c648cf0c3e1a8c67ab47f123dcfc9beb21eaa5e6584d07245f34934d85624b40244997073e74a44b243cba0e029e94748802ca804788d50857e5968efe6558f6c49b9e49742193c942c896f624ef86971c419e6d8a5cce02f082f4f7f937022c7f523d7af0d2af83e9bf5831585b20b06e59e8e306c40d3c7786b313eb4ed093b4c8ed3461f4dd6006e3dfc1ae42025902893eb8d334fe3386b30ff3c1e71b312767d0521c55b3f4b5dde1ad9a9132a318c37bdbeca783effea5fd73e60c2cf7da48825284984fd485761b2de8ed988151ffbfb9a87d7a90266048a7fc57bd279e60e0d83189607d7c4a3e15ca3197933070560374992ad52bd714ab65401751ec8e2eb2c81eeec9d8e7e40b472551135d7cd424543f3289e56c64ee53f90ba43d87daeac372a1fdb57d5e68964b57bbddf6e09f0365bcdc9abfe250294aba602f77acad711a1af58bf40bc391b35e974cd2bb05747d2b529afba82ce2a2840a36fbfe5</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">您好, 这里需要密码.</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
       
       
