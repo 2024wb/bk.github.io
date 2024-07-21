@@ -13,14 +13,14 @@
       
       <categories>
           
-          <category> docker </category>
+          <category> k8s </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> docker </tag>
+            <tag> docker k8s </tag>
             
         </tags>
       
@@ -108,9 +108,9 @@
       
         <tags>
             
-            <tag> css </tag>
-            
             <tag> js </tag>
+            
+            <tag> css </tag>
             
         </tags>
       
