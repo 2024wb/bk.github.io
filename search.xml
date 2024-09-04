@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Kubernetes</title>
+      <link href="/2024/09/04/Kubernetes/"/>
+      <url>/2024/09/04/Kubernetes/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="平台对比-PAAS"><a href="#平台对比-PAAS" class="headerlink" title="平台对比 PAAS"></a>平台对比 PAAS</h3><ul><li><p><strong>Swarm</strong>：Docker 官方提供的集群管理工具，主要作用是将多个 Docker 主机抽象成一个整体，并通过一个入口统一管理这些 Docker 主机上的各种资源。</p></li><li><p><strong>Apache Mesos</strong>：类似于 YARN 的集群管理器，提供跨分布式应用和框架的资源隔离和共享，可以运行 Hadoop、MPI、Hypertable、Spark 等。</p></li><li><p><strong>Kubernetes 优势</strong>：</p><ul><li>服务发现和负载均衡</li><li>存储编排</li><li>自动部署和回滚</li><li>自动分配 CPU&#x2F;内存资源 - 弹性伸缩</li><li>自我修复（需要时启动新容器）</li><li>Secret（安全相关信息）和配置管理</li><li>大型规模的支持</li><li>开源</li></ul></li></ul><h3 id="Pod-组成"><a href="#Pod-组成" class="headerlink" title="Pod 组成"></a>Pod 组成</h3><ul><li><strong>Nginx</strong></li><li><strong>Redis</strong></li><li><strong>php-fpm</strong></li><li><strong>Pause</strong></li></ul><h4 id="Pause-特性"><a href="#Pause-特性" class="headerlink" title="Pause 特性"></a>Pause 特性</h4><ul><li><strong>Pod 内部第一个启动的容器</strong></li><li><strong>初始化网络栈</strong></li><li><strong>挂载需要的存储卷</strong></li><li><strong>回收僵尸进程</strong></li></ul><p>Nginx、Redis、php-fpm 和 Pause 共享名字空间（Network、PID、IPC）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 云计算 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Kubernetes </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Kubernetes 集群部署</title>
       <link href="/2024/07/20/docker%E9%83%A8%E7%BD%B2/"/>
       <url>/2024/07/20/docker%E9%83%A8%E7%BD%B2/</url>
@@ -13,7 +38,7 @@
       
       <categories>
           
-          <category> k8s </category>
+          <category> 云计算 </category>
           
       </categories>
       
@@ -58,7 +83,7 @@
       
         <tags>
             
-            <tag> 云计算 </tag>
+            <tag> ansible </tag>
             
         </tags>
       
